@@ -1,0 +1,13 @@
+{
+  "name": "civictrack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CivicTrack — Community Issue Reporting & Follow-up Portal",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "test:server": "npm test --prefix server",
+    "seed:server": "npm run seed --prefix server"
+  }
+}
